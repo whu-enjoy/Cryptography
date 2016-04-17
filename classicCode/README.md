@@ -1,3 +1,4 @@
+<pre>
 这个文件夹下的代码是几个古典密码的C语言代码实现
 
 displace.c   
@@ -11,4 +12,12 @@ caesar.c
     
 vernam.c
     Vernam密码,输入的明文与密钥进行模二运算
-    
+
+conbination.c
+	将四个密码的代码集中到一起
+	int Displace(void) 简单的置换密码
+	int Replace(void)  简单的单表代替密码
+	int Vernam(void)   Vernam密码
+	int Caesar(void)   凯撒密码
+
+</pre>	

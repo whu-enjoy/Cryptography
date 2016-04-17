@@ -12,10 +12,10 @@
 #define GROUPLEN 5
 #define K 10
 
-int Displace(); //简单置换密码
-int Replace();  //简单的单表代替密码
-int Vernam();   //Vernam密码,模二运算
-int Caesar();   //凯撒密码
+int Displace(void); //简单置换密码
+int Replace(void);  //简单的单表代替密码
+int Vernam(void);   //Vernam密码,模二运算
+int Caesar(void);   //凯撒密码
 
 int main(void)
 {
@@ -71,7 +71,7 @@ int main(void)
     输出参数 :
         0
 *****************************/
-int Displace()
+int Displace(void)
 {
     char input[SIZE] = {0};
 	char output[SIZE] = {0};
@@ -116,7 +116,7 @@ int Displace()
     输出参数 :
         0
 *****************************/
-int Replace()
+int Replace(void)
 {
     char input[SIZE] = {0};
 	char output[SIZE] = {0};
@@ -148,7 +148,7 @@ int Replace()
     输出参数 :
         0
 *****************************/
-int Vernam()
+int Vernam(void)
 {
     char input[SIZE] = {0};
 	char keyt[SIZE] = {0};
@@ -219,7 +219,7 @@ int Vernam()
     输出参数 :
         0
 *****************************/
-int Caesar()
+int Caesar(void)
 {
     char input[SIZE] = {0};
 	char output[SIZE] = {0};
